@@ -201,7 +201,8 @@ Firmware banner: **Arduino.ua&KIRA**
 ---
 
 # 🇬🇧 English
-
+Glory to Ukraine!
+russia is a terrorist state!
 ## What is it?
 
 **RENTECH RT-004** is a DIY single-cell Li-ion capacity tester that measures discharged capacity by integrating load current over time.
