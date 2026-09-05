@@ -263,7 +263,7 @@ For partial-start and/or early-cutoff tests, firmware may also display **EST. FU
 
 ## IMPORTANT BATTERY DISCLAIMER! DO NOT LEAVE THE BATTERY IN THE DEVICE FOR A LONG TIME AFTER THE TEST!
 
-**Due to enhancements we've made (added automatic charging path switch-off), some backfeed to MOSFET-Key is possible that could lead to full battery discharge with all consequences!**
+**Due to enhancements we've made (added automatic charging path switch-off), some backfeed to MOSFET-Key is possible that could lead to full battery discharge after long storage in the device with all consequences!**
 
 ## Web dashboard
 
