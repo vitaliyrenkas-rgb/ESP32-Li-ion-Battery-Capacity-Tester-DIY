@@ -80,7 +80,9 @@
 
 Класичний повний тест до 2.50 V навмисно **не підміняється** штучним `EST = MEASURED`.
 ### Важливо про батарею!
+
 **ВАЖЛИВО НЕ ЗАЛИШАТИ БАТАРЕЮ У ПРИЛАДІ ПІСЛЯ ТЕСТІВ!**
+
 УВАЖНО! Через модифікації, що ми внесли у вихідний проєкт, а саме відсутність додаткового кроку з ручним вимкненням зарядного тракту ТР4056, можливий бекфід до транзисторного ключа, що може призвести до повного розряджання батареї!
 
 ## Локальна веб-панель
@@ -256,7 +258,9 @@ A classic full test to the absolute **2.50 V** lower cutoff reports the directly
 For partial-start and/or early-cutoff tests, firmware may also display **EST. FULL**, calculated from the estimated SOC slice covered by the test.
 
 **EST. FULL is not a direct full-capacity measurement.** The firmware explicitly marks the voltage/SOC model as `UNVALIDATED`. It should be treated as an experimental estimate until validated against a sufficient set of real full-discharge runs.
-## IMPORTANT BATTERY DISCLAIMER! DO NOT LEAVE BATTERY FOR A LONG TIME IN DEVICE AFTER TEST!
+
+## IMPORTANT BATTERY DISCLAIMER! DO NOT LEAVE THE BATTERY IN THE DEVICE FOR A LONG TIME AFTER THE TEST!
+
 **Due to enhancements we've made (added automatic charging path switch-off), some backfeed to MOSFET-Key is possible that could lead to full battery discharge with all consequences!**
 
 ## Web dashboard
