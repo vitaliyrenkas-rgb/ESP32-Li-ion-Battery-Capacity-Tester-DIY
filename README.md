@@ -172,10 +172,11 @@ v1.13 — невеликий, але важливий release-polish повер�
 - ESP32-C3 Super Mini
 - INA219
 - LCD 1602 I²C
-- 1S Li-ion charger module / HW-373 path
-- relay discharge switching
-- external resistive load
+- 1S Li-ion charger module / TP4056(HW-373) path
+- relay discharge switching (Модуль реле 5В 10А високого рівня (high level)
+- external resistive load - Resistor 8 Om
 - фізична кнопка START
+- транзисторний ключ на базі МОСФЕТ A3400A та А3401А
 - окреме програмне керування зарядним трактом
 
 Фото реальної внутрішньої збірки:
