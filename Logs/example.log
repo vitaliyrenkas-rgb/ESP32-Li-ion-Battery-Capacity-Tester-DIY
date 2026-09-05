@@ -1,0 +1,22 @@
+[CUTOFF] configured=3.60V (next test)
+[BUTTON] SHORT -> START
+[TEST] START requested
+[CUTOFF] locked=3.60V for this test
+[CHARGE] OFF / HW-373 IN+ isolated
+[STARTCHK] CHARGE=OFF V=4.184V signedI=-0.4mA
+[START] Vstart=4.184V class=PARTIAL SOCest=98.4%
+[RELAY] DISCHARGE / relay ON
+[LOADCHK] 1/5 V=4.125V signedI=491.8mA pass=1
+[LOADCHK] 2/5 V=4.129V signedI=492.0mA pass=2
+[LOADCHK] 3/5 V=4.121V signedI=491.8mA pass=3
+[LOADCHK] 4/5 V=4.121V signedI=491.9mA pass=4
+[LOADCHK] 5/5 V=4.121V signedI=491.9mA pass=5
+[LOADCHK] result: good=5/5 avgSignedI=491.9mA threshold=100.0mA
+[TEST] RUNNING V=4.121V I=491.9mA cutoff=3.60V CHARGE=OFF
+[RUN] T=00:00:10 V=4.125V I=491.6mA rawI=491.6mA C=1.4mAh cutoff=3.60V hit=0/4 load=0/4 CHG=OFF
+...
+[RUN] T=04:08:04 V=3.599V I=432.4mA rawI=432.4mA C=1914.1mAh cutoff=3.60V hit=2/4 load=0/4 CHG=OFF
+[RELAY] CHARGE / discharge OFF
+[CHARGE] ON / HW-373 IN+ enabled
+[EST] MODEL=UNVALIDATED Vstart=4.184V SOCstart=98.4% cutoff=3.60V SOCcut=4.9% tested=93.5% MEAS=1914.1mAh EST_FULL=2046.2mAh
+[STOP] reason=CUTOFF V=3.599V I=432.3mA C=1914.1mAh T=14884840ms cutoff=3.60V
